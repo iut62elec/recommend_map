@@ -17,6 +17,12 @@
       },
       "storage": {
         "s3recommendmapstorage3f088a15": {}
+      },
+      "api": {
+        "recommendmap": {}
+      },
+      "geo": {
+        "map451d5e8e": {}
       }
     }
   }

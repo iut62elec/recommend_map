@@ -53,6 +53,24 @@
       "service": "Cognito"
     }
   },
+  "geo": {
+    "map451d5e8e": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "recommendmap"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorEsriStreets",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    }
+  },
   "storage": {
     "s3recommendmapstorage3f088a15": {
       "dependsOn": [],
