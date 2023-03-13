@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3recommendmapstorage3f088a15",
+  "bucketName": "recommendmap-storage-3f088a15",
+  "policyUUID": "a280a057",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
